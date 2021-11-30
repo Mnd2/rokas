@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+.backVideo {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+}
+.top {
+    position: fixed;
+    background: rgba(128, 113, 113, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+img {
+    width: 135px;
+    float: right;
+    top: 0;
+    padding-right: 100px;
+}
+h1 {
+    display: inline-block;
+}
+.youtube {
+    float: left;
+    width: 30%;
+    position: absolute;
+}
+#video1 {
+margin: 120px 20px 20px 0;
+display: inline;
+}
+#video2 {
+    margin: 0 30px 30px 0;
+    display: inline;
+}
+.audio {
+    position: absolute;
+    float: right;
+}
