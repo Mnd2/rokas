@@ -42,7 +42,39 @@
     </iframe>
 </div>
 <div class="audio">
-    
+    <audio  controls src="./sound/MELLOW.mp3"></audio>
+    <audio controls src="./sound/salami2.mp3"></audio>
+    <audio controls src="./sound/unglup-beat.mp3"></audio>
 </div>
+<div class="map">
+    <h2>Susitinkame:</h2>
+    <iframe id="mapframe"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258117.5942344069!2d-81.16129141364539!3d34.92757727914861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88568caa45cafb65%3A0xc77a8c45e50c89f0!2sRok%20Hilis%2C%20Piet%C5%B3%20Karolina%2C%20Jungtin%C4%97s%20Valstijos!5e0!3m2!1slt!2slt!4v1638308491731!5m2!1slt!2slt" 
+        width="300" 
+        height="150" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</div>
+<section>
+    <h2>Įvertinkite</h2>
+    <form action="#" method="get">
+        <label for="Patiko">Patiko</label>
+        <input id="Patiko" type="radio" name="ivertinimas" value="Patiko"><br>
+    
+        <label for="Nepatiko">Nepatiko</label>
+        <input id="Nepatiko" type="radio" name="ivertinimas" value="Nepatiko"><br>
+
+        <label for="Vardas">Vardas</label>
+        <input id="Vardas" type="text" name="Vardas" placeholder="Vardas" required><br>
+    
+        <label for="Pavarde">Pavarde</label>
+        <input id="Pavarde" type="text" name="Pavarde" placeholder="Pavarde" required><br>
+    
+        <label for="Email">Email</label>
+        <input id="Email" type="Email" name="Email" placeholder="Email" required><br>
+        <button>Siusti</button>
+    </form>
+</section>
 </body>
 </html>

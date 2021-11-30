@@ -28,7 +28,7 @@ h1 {
 .youtube {
     float: left;
     width: 30%;
-    position: absolute;
+    position: relative;
 }
 #video1 {
 margin: 120px 20px 20px 0;
@@ -39,6 +39,27 @@ display: inline;
     display: inline;
 }
 .audio {
-    position: absolute;
+    margin: 120px 10px 0 0;
     float: right;
+}
+.map {
+    width: 25%;
+    margin-top: 25%;
+    position: relative;
+    float: right;
+    color: #fff;
+}
+#mapframe {
+    margin: 0px 20px 0 0;
+}
+section {
+    display: initial;
+    position: relative;
+    position: fixed;
+    background: rgba(128, 113, 113, 0.5);
+    color: #f1f1f1;
+    width: 20%;
+    height: 25%;
+    margin-top: 30%;
+    padding: 20px;
 }
