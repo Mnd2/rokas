@@ -44,8 +44,8 @@ display: inline;
 }
 .map {
     width: 25%;
-    margin-top: 32%;
-    position: fixed;
+    margin-top: 30%;
+    position: relative;
     float: right;
     color: #fff;
 }
